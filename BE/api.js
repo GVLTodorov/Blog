@@ -4,7 +4,7 @@ const BodyParser = require("body-parser");
 const MongoClient = require("mongodb").MongoClient;
 const ObjectId = require("mongodb").ObjectID;
 const CONNECTION_URL = "mongodb://192.168.1.120:27017/?compressors=zlib&gssapiServiceName=mongodb";
-const DATABASE_NAME = "TestApp";
+const DATABASE_NAME = "BlogTestApp";
 
 
 var app = Express();
